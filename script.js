@@ -95,7 +95,7 @@
         }
         
         // AI Assistant with ChatGPT Integration
-        const OPENAI_API_KEY = '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';
+        const OPENAI_API_KEY = '';
         let conversationHistory = [];
         let isUsingAI = true;
         
@@ -655,4 +655,5 @@
             
             // Test API connection after page loads
             setTimeout(testAPIConnection, 2000);
+
         });
